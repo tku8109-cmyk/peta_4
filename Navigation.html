@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        body {
+            width: 100vw;
+            height: 100vh;
+        }
+        .nav-bar {
+            width: 100%;
+            height: 100%;
+            background: url('https://i.pinimg.com/1200x/5a/41/06/5a410607395ef5b47797231fd4d4eea4.jpg') no-repeat center center;
+            background-size: cover;
+            padding: 20px 10px 15px 10px;
+            box-sizing: border-box;
+            /* Use flex to vertically align content if desired */
+            display: flex;
+            flex-direction: column;
+        }
+        .nav-bar h3 {
+            color: #21f5ff;
+            margin-bottom: 20px;
+        }
+        .nav-bar a {
+            display: block;
+            color: #eafdff;
+            text-decoration: none;
+            margin-bottom: 15px;
+            font-weight: bold;
+            font-size: 1.04em;
+        }
+        .nav-bar a:hover {
+            text-decoration: underline;
+            color: #05979e;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <h3>Navigation</h3>
+        <a href="personal.html" target="main">Personal Info</a>
+        <a href="education.html" target="main">Education</a>
+        <a href="skills.html" target="main">Skills</a>
+        <a href="projects.html" target="main">Projects</a>
+        <a href="experience.html" target="main">Experience</a>
+    </div>
+</body>
+</html>
